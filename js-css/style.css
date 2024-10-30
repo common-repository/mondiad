@@ -1,0 +1,327 @@
+.mondiad-layout {
+    padding-bottom: 200px;
+}
+
+.mondiad-layout, .mondiad-layout p {
+    color: #595c97;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+.mondiad-layout h1, .mondiad-layout h2, .mondiad-layout h3, .mondiad-layout h4, .mondiad-layout h5 {
+    color: #595c97;
+}
+
+.mondiad-layout a, .mondiad-layout a:visited {
+    color: #47a4fc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mondiad-layout a:hover, .mondiad-layout a:focus {
+    color: #4b7cf3;
+    text-decoration: none;
+}
+
+.mondiad-layout-body {
+    margin: 20px;
+    padding: 15px;
+}
+
+.mondiad-form.login {
+    max-width: 400px;
+}
+
+.mondiad-form button, .mondiad-button {
+    background-color: #1890ff;
+    border: none;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.mondiad-short-button {
+    max-width: 200px;
+}
+
+.mondiad-form-field {
+    display: block;
+    margin: 10px 0;
+    height: 55px;
+}
+
+.mondiad-form-field label {
+    color: #595959;
+    display: block;
+    font-weight: normal;
+    border: none;
+    height: 24px;
+}
+
+.mondiad-form-field input {
+    display: block;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    width: 100%;
+}
+
+label.mondiad-checkbox-label {
+    display: initial;
+}
+
+input.mondiad-checkbox {
+    display: inline-block;
+}
+
+.mondiad-form-field input[type="checkbox"] {
+    width: initial;
+    border: 1px solid #CECECE;
+    margin-top: 0;
+}
+.mondiad-layout .mondiad-form-field-error {
+    color: #770000;
+}
+
+.mondiad-table {
+    text-align: center;
+    width: 100%;
+}
+
+.mondiad-table td {
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.mondiad-table th {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.mondiad-table-scrollable tbody {
+    max-height: 400px;
+    overflow-y: overlay;
+    display: block;
+}
+
+.mondiad-table-scrollable tr {
+    display: grid;
+    grid-template-columns: 70px auto 120px 150px 100px 70px 120px
+}
+
+.mondiad-field-name {
+    font-weight: bold;
+}
+
+.mondiad-highlight {
+    color: #51c51d!important;
+    font-weight: 500;
+}
+
+.mondiad-warning {
+    color: #770000!important;
+}
+
+.mondiad-info, p.mondiad-info {
+    border: 1px solid #e4e9f0;
+    padding: 18px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+}
+
+.mondiad-logo {
+    margin: auto;
+    display: block;
+    max-width: 400px;
+}
+
+.mondiad-logo-text {
+    text-align: center;
+    color: #000;
+    font-size: 21px;
+    padding-top: 12px;
+}
+
+.mondiad-sub-logo {
+    margin: auto;
+    display: block;
+    max-width: 378px;
+    padding-left: 32px;
+    font-size: 13px;
+    color: #858585;
+}
+
+.mondiad-login-body {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+.mondiad-websites-body {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.mondiad-adzones-body {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.mondiad-ad-table-title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    min-width: 200px;
+    margin: 25px 0;
+}
+
+.mondiad-ad-table-toggle {
+    display: inline-block;
+}
+
+.mondiad-ad-table tr {
+    display: grid;
+    grid-template-columns: 80px auto 150px 150px 150px
+}
+
+.mondiad-ad-table-native tr, .mondiad-ad-table-banner tr {
+    display: grid;
+    grid-template-columns: 80px auto 150px 150px
+}
+
+.mondiad-ad-table-wrap {
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+    padding: 0 20px 20px;
+    margin-bottom: 30px;
+}
+
+p.mondiad-ad-website {
+    font-size: 18px;
+}
+
+.mondiad-lightgreen {
+    color: #51c51d!important;
+}
+
+.mondiad-table-with-title {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.mondiad-table-with-switch {
+
+}
+
+.mondiad-switch {
+
+}
+
+p.mondiad-table-switch-info {
+    font-size: 13px;
+    color: #bfbfbf;
+}
+
+.mondiad-table-title-box {
+
+}
+
+p.mondiad-table-title {
+    font-size: 22px;
+    margin: 0;
+}
+
+.mondiad-loader {
+    position: absolute;
+    display: inline-block;
+    min-height: 20px;
+}
+
+.mondiad-search-loader {
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+.mondiad-zone-part {
+    padding: 10px;
+}
+
+div.mondiad-website-name-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.mondiad-website-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+div.mondiad-website-change-button {
+    min-width: 150px;
+}
+
+.mondiad-website-info {
+    margin-bottom: 30px;
+}
+
+.mondiad-metabox-select-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mondiad-metabox-ad-select-label {
+    display: inline-block;
+    max-width: 150px;
+    width: 100%;
+}
+
+select.mondiad-metabox-ad-select {
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+}
+
+.mondiad-metabox-trigger {
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.mondiad-copy {
+    cursor: pointer;
+}
+
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+}
+.popup-arrow {
+    color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+    width: 520px;
+    box-shadow: rgba(0, 0, 0, 0.16) 3px 3px 3px;
+    border-radius: 3px;
+    border-top: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+}
+
+.popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+[data-popup='tooltip'].popup-overlay {
+    background: transparent;
+}
